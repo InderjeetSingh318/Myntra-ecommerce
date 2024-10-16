@@ -1,0 +1,91 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    background-color: azure;
+    padding-bottom: 30px;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: azure;
+    padding-bottom: 30px;
+}
+
+.text{
+    color:blue;
+    font-size: 50px;
+    font-weight: 500;
+}
+.underline{
+    width: 60px;
+    height: 6px;
+    background-color: rgb(92, 32, 221);
+    border: 10px;
+}
+.inputs{
+    margin-top:60px ;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.gray{
+    background: gray;
+    color: rgb(25, 20, 20);
+}
+.input label{
+    
+    font-size: 20px;
+    margin: 10px;
+   
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
